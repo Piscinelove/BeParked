@@ -1,0 +1,15 @@
+image: node:6.10.3
+
+stages:
+
+  - tests
+
+run_tests:
+
+  stage: tests
+
+  script:
+
+    - npm install
+
+    - npm test
